@@ -24,7 +24,7 @@
   
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />  
   <project path="cts" name="CyanogenMod/android_cts" />
   
   <!--project path="dalvik" name="CyanogenMod/android_dalvik" /-->
@@ -357,8 +357,7 @@
 
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" revision="gingerbread" />
   <project path="hardware/realtek" name="allwinner-dev-team/android_hardware_realtek" />
-  <!--project path="device/allwinner/a10" name="Quarx2k/android_device_a10" /-->
-  <!--project path="external/cedarx" name="Quarx2k/android_external_cedarx.git"  /-->
+  <project path="device/mediacom/711" name="mortaromarcello/android_device_mediacom_711" />
   <project path="external/cedarx" name="mortaromarcello/android_external_cedarx" />
 
 </manifest>
