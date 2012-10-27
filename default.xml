@@ -13,6 +13,7 @@
 
   <default revision="refs/heads/jellybean"
            remote="github"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="CyanogenMod/android_build">
@@ -272,7 +273,7 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
+  <!--project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" /-->
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
@@ -336,5 +337,4 @@
   <project path="hardware/realtek" name="allwinner-dev-team/android_hardware_realtek" />
   <project path="device/mediacom/711" name="mortaromarcello/android_device_mediacom_711" />
   <project path="external/cedarx" name="mortaromarcello/android_external_cedarx"  />
-
 </manifest>
