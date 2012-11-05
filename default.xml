@@ -3,7 +3,8 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-
+  <remote name="gitorious"
+		   fetch="git://gitorious.org/" />
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.com" />
@@ -21,7 +22,6 @@
   </project>
 
   <project path="android" name="CyanogenMod/android" />
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
@@ -242,8 +242,8 @@
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <!--project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" /-->
+  <!--project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" /-->
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
@@ -337,5 +337,6 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   <project path="hardware/realtek" name="allwinner-dev-team/android_hardware_realtek" />
   <project path="device/mediacom/711" name="mortaromarcello/android_device_mediacom_711" />
-  <project path="external/cedarx" name="mortaromarcello/android_external_cedarx"  />
+  <project path="device/mediacom/711/apps/fdroidclient" name="f-droid/fdroidclient" remote="gitorious" revision="master" />
+  <project path="external/cedarx" name="mortaromarcello/android_external_cedarx" />
 </manifest>
